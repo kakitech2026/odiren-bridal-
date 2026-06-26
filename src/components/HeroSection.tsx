@@ -51,14 +51,16 @@ const HeroSection = () => {
         </button>
 
         {/* Decorative Elements - Hidden on mobile */}
-        <div
-          className="hidden sm:block absolute top-1/4 left-1/4 w-3 h-3 bg-gold/50 rounded-full animate-pulse"
-          style={{ animationDelay: "1s" }}
-        ></div>
-        <div
-          className="hidden sm:block absolute bottom-1/4 right-1/4 w-3 h-3 bg-accent/50 rounded-full animate-pulse"
-          style={{ animationDelay: "0.5s" }}
-        ></div>
+        {/*  
+            <div
+              className="hidden sm:block absolute top-1/4 left-1/4 w-3 h-3 bg-gold/50 rounded-full animate-pulse"
+              style={{ animationDelay: "1s" }}
+            ></div>
+            <div
+              className="hidden sm:block absolute bottom-1/4 right-1/4 w-3 h-3 bg-accent/50 rounded-full animate-pulse"
+              style={{ animationDelay: "0.5s" }}
+            ></div>
+        */}
       </div>
 
       {/* Scroll Indicator */}

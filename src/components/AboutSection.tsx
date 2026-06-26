@@ -53,17 +53,6 @@ const AboutSection = () => {
               </p>
             </div>
 
-            {/* Achievements */}
-            <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-8 sm:mt-12">
-              <div className="text-center p-3 sm:p-4 bg-card rounded-lg border border-border">
-                <div className="font-display text-2xl sm:text-3xl font-bold text-[#F4BBC9]">10+</div>
-                <div className="font-body text-xs sm:text-sm text-muted-foreground">Years Experience</div>
-              </div>
-              <div className="text-center p-3 sm:p-4 bg-card rounded-lg border border-border">
-                <div className="font-display text-2xl sm:text-3xl font-bold text-gold">100+</div>
-                <div className="font-body text-xs sm:text-sm text-muted-foreground">Happy Brides</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
