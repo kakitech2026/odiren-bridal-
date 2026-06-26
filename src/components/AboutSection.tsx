@@ -27,9 +27,15 @@ const AboutSection = () => {
           {/* Content */}
           <div className="space-y-6 sm:space-y-8 animate-slide-up">
             <div>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl tracking-tight font-normal text-foreground mb-4">
-                About The Designer
-              </h2>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 mb-4">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl tracking-tight font-normal text-foreground">
+                  About The Designer
+                </h2>
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white rounded-full border border-black/5 shadow-sm self-start">
+                  <span className="text-xl sm:text-2xl font-display text-primary leading-none">10+</span> 
+                  <span className="font-body text-xs sm:text-sm font-medium text-black/60 uppercase tracking-wider">Years Experience</span>
+                </div>
+              </div>
               <div className="w-16 sm:w-20 h-1 bg-gold rounded-full mb-6 sm:mb-8"></div>
             </div>
 
@@ -52,6 +58,8 @@ const AboutSection = () => {
                 <em className="text-gold font-normal">"To create gowns that are as individual as the love stories they celebrate."</em>
               </p>
             </div>
+
+
 
           </div>
         </div>
